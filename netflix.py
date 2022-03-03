@@ -3,6 +3,7 @@ import numpy as np
 import streamlit as st
 import codecs
 import re
+st.subheder('Integrantes: Pedro de Jesus Hernandez Rojas \nCristian Terán Juárez ')
 st.title('Peliculas de Netflix')
 
 
