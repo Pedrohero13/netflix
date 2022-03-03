@@ -6,7 +6,7 @@ import re
 st.title('Peliculas de Netflix')
 
 
-DATA_URL = ('/content/movies.csv')
+DATA_URL = ('https://raw.githubusercontent.com/Pedrohero13/netflix/main/movies.csv')
 
 @st.cache
 def load_data(nrows):
